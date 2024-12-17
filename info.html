@@ -1,0 +1,167 @@
+
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <title>Общая информация</title>
+    <style>
+        body {
+            font-family: Roboto, sans-serif;
+            background-color: #f4f4f4; 
+            color: #333; 
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #444; 
+            color: #fff; 
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        header a {
+            color: #fff; 
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        header a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff; 
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 3em; 
+            color: #fff; 
+            background: #444; 
+            padding: 20px; 
+            border-radius: 10px; 
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+            font-family: 'Arial', sans-serif; 
+        }
+
+        .musician {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            border: 1px solid #ccc; 
+            border-radius: 8px;
+            padding: 10px;
+            background: #f9f9f9; 
+        }
+
+        .musician img {
+            width: 100px; 
+            height: auto; 
+            border-radius: 5px; 
+            margin-right: 15px; 
+        }
+
+        ol {
+            margin-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            background: #444; 
+            color: #fff; 
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        hr {
+            width: 50%;
+            margin: 20px auto;
+            border: 1px solid #ccc; 
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="index.html">Главная</a> |
+        <a href="info.html">Общая информация</a> |
+        <a href="history.html">История</a> |
+        <a href="film.html">Фильмография</a> |
+        <a href="disk.html">Дискография</a> |
+        <a href="link.html">Источники</a> |
+        <a href="shop.html">Заказать альбом</a> |
+        <a href="contacts.html">Контакты</a>
+    </nav>
+</header>
+
+<main>
+    <h1>Общая информация о The Beatles</h1>
+
+    <strong>Название:</strong> "The Beatles" ("Битлз"; отдельно участников ансамбля называют "битлами")<br>
+    <strong>Страна:</strong> Великобритания (г. Ливерпуль)<br>
+    <strong>Годы:</strong> 1960-1970<br>
+    <strong>Состав группы:</strong><br>
+
+    <div class="musician">
+        <img src="john_lennon.jpg" alt="Джон Ленон">
+        <div>
+            <strong>Джон Ленон</strong><br>
+            (ритм-гитара, соло-гитара, клавишные, бубен, маракасы, бас-гитара, губная гармошка, вокал)
+        </div>
+    </div>
+
+    <div class="musician">
+        <img src="paul_mccartney.jpg" alt="Пол Макартни">
+        <div>
+            <strong>Пол Макартни</strong><br>
+            (бас-гитара, клавишные, ударные, гитара, вокал)
+        </div>
+    </div>
+
+    <div class="musician">
+        <img src="george_harrison.jpg" alt="Джордж Харрисон">
+        <div>
+            <strong>Джордж Харрисон</strong><br>
+            (соло-гитара, ритм-гитара, ситар, бубен, клавишные, вокал)
+        </div>
+    </div>
+
+    <div class="musician">
+        <img src="ringo_starr.jpg" alt="Ринго Стар">
+        <div>
+            <strong>Ринго Стар</strong><br>
+            (ударные, ритм-гитара, бубен, маракасы, коубелл, бонги, клавишные, вокал)
+        </div>
+    </div>
+
+    <p><br>Также в разное время в составе группы выступали:</p>
+
+    <ol>
+        <li><strong>Пит Бест</strong> (ударные, вокал)</li>
+        <li><strong>Стюарт Станклифф</strong> (бас-гитара, вокал)</li>
+        <li><strong>Джимми Никол</strong> (ударные)</li>
+    </ol>
+
+    <p>После распада группы, произошедшего в 1970 году, каждый из её участников начал сольную карьеру.</p>
+</main>
+
+<footer>
+    <hr>
+    <font face="Arial" size="1">&copy; Все права защищены.</font>
+</footer>
+
+</body>
+</html>
